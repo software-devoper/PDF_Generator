@@ -12,6 +12,7 @@ from pathlib import Path
 import time
 from datetime import datetime
 import json
+import reportlab
 
 # Load environment variables
 load_dotenv()
@@ -462,3 +463,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
