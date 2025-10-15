@@ -1,35 +1,7 @@
-# langchain core
-langchain
-langchain-core
-
-# openAi integration
-
-langchain-openAi
-openAi
-
-# Anthropic integration
-langchain-Anthropic
-
-# Google Gemini (Palm) integration
-
-langchain-Google-genai
-Google-generativeai
-
-# Hugging Face integration
-langchain-huggingface
-transformers
-huggingface-hub
-
-#Enviornment Variable Management
-python-dotenv
-
-#Machine Learning Utilities
-scikit-learn
-streamlit
-reportlab
-Pillow
-langchain
-langchain-google-genai
-python-dotenv
-
-
+streamlit>=1.25.0
+python-dotenv>=1.0.0
+langchain-google-genai>=0.0.18
+langchain-core>=0.0.165
+reportlab>=3.6.12
+PyPDF2>=3.0.0
+pdfrw>=0.4
