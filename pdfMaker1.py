@@ -86,7 +86,8 @@ def create_pdf_from_code(code):
             temp_file_path = f.name
         
         # Execute the code with timeout
-        result = subprocess.run(['python', temp_file_path], capture_output=True, text=True, timeout=60)
+result = subprocess.run([sys.executable, temp_file_path],
+                        capture_output=True, text=True, timeout=60)
         
         # Clean up the temporary Python file
         os.unlink(temp_file_path)
@@ -464,5 +465,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
