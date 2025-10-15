@@ -25,3 +25,11 @@ python-dotenv
 
 #Machine Learning Utilities
 scikit-learn
+streamlit
+reportlab
+Pillow
+langchain
+langchain-google-genai
+python-dotenv
+
+
