@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_google_genai import GoogleGenerativeAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os
 from langchain_core.output_parsers import StrOutputParser
@@ -469,6 +469,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
